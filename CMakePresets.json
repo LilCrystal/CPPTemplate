@@ -206,7 +206,7 @@
     ],
     "packagePresets": [
         {
-            "name": "Linux-package",
+            "name": "Linux-Package",
             "configurePreset": "Linux-Debug",
             "description": "Create Linux packages (TGZ)",
             "generators": [
@@ -217,7 +217,7 @@
                 "CPACK_INSTALL_CMAKE_PROJECTS": "${sourceDir}"
             },
             "displayName": "Linux Package",
-            "packageName": "${projectName}-${projectVersion}-Linux666",
+            "packageName": "${projectName}-${projectVersion}-Linux",
             "packageDirectory": "${sourceDir}/dist"
         }
     ],
@@ -237,11 +237,11 @@
                 },
                 {
                     "type": "test",
-                    "name": "Linux_test"
+                    "name": "Linux_Test"
                 },
                 {
                     "type": "package",
-                    "name": "Linux-package"
+                    "name": "Linux-Package"
                 }
             ]
         }
